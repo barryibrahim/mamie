@@ -3,8 +3,31 @@
 {% block title %}Accueil{% endblock %}
 
 {% block body %}
-
+<style>
+    .container {
+        max-width: 800px;
+        margin: 2em auto;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+    .container h1 {
+        color: #2c3e50;
+    }
+    .btn-primary {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .btn-primary:hover {
+        background-color: #2980b9;
+    }
+</style>
 
 <div class="container">
     <h1>Bienvenue chez mamie ! </h1>
+    
 {% endblock %}
